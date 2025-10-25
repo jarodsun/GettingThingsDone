@@ -1,15 +1,19 @@
 # 收件箱
 
-**最后更新**: {{date:YYYY-MM-DD HH:mm}}
+**最后更新**:  2025-10-25 12:28
 
 ## 快速添加
-- [ ] 
+- [ ] 找工作
+- [ ] 在cursor中加入OpenSpec和SpecKit
+- [ ] 网页挂机游戏
+- [ ] 哈国风控系统
+- [ ] miniCRM
 
 ## 待处理项目
 ```dataview
 LIST
 FROM "00-Inbox"
-WHERE contains(tags, "#inbox") AND !completed
+WHERE file.name != "00-Inbox" AND file.name != "示例-收件箱项目"
 SORT file.ctime DESC
 ```
 
@@ -28,12 +32,12 @@ SORT file.ctime DESC
 - `#reference` - 参考资料
 
 ## 情境标签
-- `#@home` - 在家
-- `#@office` - 办公室
-- `#@phone` - 电话
-- `#@computer` - 电脑
-- `#@errands` - 外出
-- `#@online` - 在线
+- `#at_home` - 在家
+- `#at_office` - 办公室
+- `#at_phone` - 电话
+- `#at_computer` - 电脑
+- `#at_errands` - 外出
+- `#at_online` - 在线
 
 ## 优先级标签
 - `#priority-high` - 高优先级

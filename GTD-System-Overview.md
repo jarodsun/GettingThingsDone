@@ -1,6 +1,6 @@
 # GTD系统总览
 
-**最后更新**: {{date:YYYY-MM-DD HH:mm}}
+**最后更新**: 2025-10-25 12:20
 
 ## 系统状态
 
@@ -8,7 +8,7 @@
 ```dataview
 LIST
 FROM "00-Inbox"
-WHERE contains(tags, "#inbox") AND !completed
+WHERE file.name != "00-Inbox"
 SORT file.ctime DESC
 ```
 
@@ -94,12 +94,12 @@ SORT file.ctime DESC
 - `#archive` - 归档
 
 ### 情境标签
-- `#@home` - 在家
-- `#@office` - 办公室
-- `#@phone` - 电话
-- `#@computer` - 电脑
-- `#@errands` - 外出
-- `#@online` - 在线
+- `#at_home` - 在家
+- `#at_office` - 办公室
+- `#at_phone` - 电话
+- `#at_computer` - 电脑
+- `#at_errands` - 外出
+- `#at_online` - 在线
 
 ### 优先级标签
 - `#priority-high` - 高优先级
