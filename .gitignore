@@ -1,0 +1,50 @@
+# Obsidian 配置文件
+.obsidian/
+.obsidian/workspace
+.obsidian/app.json
+.obsidian/workspace.json
+# .obsidian/appearance.json
+# .obsidian/core-plugins.json
+# .obsidian/community-plugins.json
+# .obsidian/plugins/
+# .obsidian/themes/
+.obsidian/snippets/
+# .obsidian/hotkeys.json
+# .obsidian/graph.json
+# .obsidian/canvas.json
+.obsidian/workspace-mobile.json
+
+# Obsidian 缓存和临时文件
+.obsidian/cache/
+.obsidian/workspace.json.bak
+.obsidian/workspace-mobile.json.bak
+
+# Obsidian 插件数据
+# .obsidian/plugins/*/data.json
+# .obsidian/plugins/*/settings.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.tmp
+*.temp
+*~
+
+# 日志文件
+*.log
+
+# 备份文件
+*.bak
+*.backup
+
+# 编辑器配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 其他可能的 Obsidian 相关文件
+.trash/
